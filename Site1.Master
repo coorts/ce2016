@@ -1,0 +1,148 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.Master.vb" Inherits="SmartBoxVS.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta content="IE=edge, chrome=1, firefox=1 safari=1" http-equiv="X-UA-Compatible" />
+    <meta property="og:image" content="http://www.whiteclay.com/images/favicon-16x16.png" />
+    <meta property="og:title" content="White Clay" />
+    <meta property="og:url" content="whiteclay.com" />
+    <title>White Clay | Banker Sales Environment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta name="norton-safeweb-site-verification" content="v6gsedy-97xstcmictm6h1z9d0d5pla42vobtu8w-ng5ie8-68u7ri1dja0knpywgu3qo8vsozkwd8xaeuxsbkc-ho8jljzl0bxxbrnoz9fhd6d15al7c-2je0nto8rd" />
+    <%--   Linked Files--%>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet" />
+    <link href="stylesheets/font-awesome.min.css" rel="stylesheet" />
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet" />
+    <link href="stylesheets/creative.min.css" rel="stylesheet" />
+    <link href="stylesheets/fonts-lato.css" rel="stylesheet" />
+    <link href="stylesheets/theme.min.css" rel="stylesheet" />
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/revolution.extension.kenburn.min.js"></script>
+    <script src="js/revolution.extension.navigation.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script type="text/javascript">(function () {
+    var fl = document.createElement('script'); fl.type = 'text/javascript';
+    fl.async = true; fl.src = document.location.protocol + '//filamentapp.s3.amazonaws.com/4725140419090cf7a608b00456a86573.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(fl, s);
+})();</script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-67884526-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+
+<body class=" " runat="server">
+    <form id="form1" runat="server">
+        <!-- Page Header -->
+        <div class="menu navbar navbar-static-top header-logo-left-menu-right text-none oxy-mega-menu navbar-sticky" id="masthead" style="color: #5e5e5e !important; background: #ffffff">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed" data-target=".main-navbar" data-toggle="collapse" type="button">
+                        <span class="fa fa-bars" style="color: #5e5e5e;"></span>
+                    </button>
+                    <a class="navbar-brand" href="home.aspx">
+                        <img src="images/png/logo.png" alt="White Clay" />
+                    </a>
+                </div>
+                <div class="nav-container">
+                    <nav class="collapse navbar-collapse main-navbar logo-navbar navbar-right">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav" id="menu-main" style="color: #5e5e5e;">
+                                <li class="menu-item"><a href="home.aspx">HOME</a> </li>
+                                <li class="menu-item"><a href="register.aspx">REGISTER</a> </li>
+                                <li class="menu-item"><a href="learnmore.aspx">LEARN MORE</a> </li>
+                                <li class="menu-item"><a href="team.aspx">TEAM</a> </li>
+                                <li class="menu-item"><a href="faq.aspx">FAQ</a> </li>
+                                <li class="menu-item"><a href="contact.aspx">CONTACT</a> </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Main Content -->
+        <div id="content" role="main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <!-- Page Footer -->
+        <footer id="footer">
+            <section class="section">
+                <div class="container">
+                    <div class="row element-top-20 element-bottom-20 footer-columns-3">
+                        <div class="col-sm-10">
+                            <div class="sidebar-widget widget_text">
+                                <div class="textwidget">
+                                    <p>
+                                        <a href="https://www.google.com/maps/dir/''/white+clay+consulting/@38.25751,-85.7985599,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x886972bc0942d093:0xc7c0fbed7eb83be!2m2!1d-85.724743!2d38.2575331">1515 Story Avenue
+                                       Louisville, KY
+                                       40206 
+                                        </a>
+                                        <br />
+                                        <a href="mailto:shoppers@whiteclay.com?Subject=Info%20Please">shoppers@whiteclay.com
+                                        </a>
+                                        <br />
+                                        <a href="tel:502-565-0199">502-565-0199
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div>
+                                <ul style="list-style: none;">
+                                    <li>
+                                        <a href="http://www.mspa-na.org/home">
+                                            <img src="images/jpg/MSPA.jpg" /></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <!--To Top Button -->
+        <a class="go-top go-top-circle" href="javascript:void(0)"><i class="fa fa-angle-up"></i></a>
+        <script type="text/javascript">
+            var oxyThemeData = {
+                navbarHeight: 100,
+                navbarScrolled: 60,
+                navbarScrolledPoint: 20,
+                menuClose: 'off',
+                scrollFinishedMessage: 'No more items to load.',
+                hoverMenu:
+                {
+                    hoverActive: false,
+                    hoverDelay: 1,
+                    hoverFadeDelay: 200
+                },
+                siteLoader: 'on'
+            };
+        </script>
+        <script src="js/theme.min.js"></script>
+        <%--   Scripts--%>
+        <script type="text/javascript" src="js/theme.js"></script>
+        <script type="text/javascript" src="js/theme.min.js"></script>
+    </form>
+</body>
+</html>
